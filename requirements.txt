@@ -5,3 +5,4 @@ loady
 numpy
 pyserial
 pyyaml
+opencv-python
