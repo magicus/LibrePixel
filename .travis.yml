@@ -15,6 +15,11 @@ script:
 - coverage html -d htmlcov
 - coverage report --fail-under=35
 - python setup.py install
+- ./scripts/documentation/clean
+- ./scripts/documentation/preprocess
+- ./scripts/documentation/api
+- ./scripts/documentation/bp
+- ./scripts/documentation/sphinx
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
