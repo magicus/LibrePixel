@@ -13,4 +13,4 @@ script:
 - flake8
 - coverage run -m pytest
 - coverage report --fail-under=35
-
+- python setup.py install
