@@ -12,5 +12,6 @@ install:
 script:
 - flake8
 - coverage run -m pytest
+- coverage html -d htmlcov
 - coverage report --fail-under=35
 - python setup.py install
