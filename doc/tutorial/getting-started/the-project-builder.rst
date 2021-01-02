@@ -16,8 +16,6 @@ walkthrough below will probably be more entertaining.
 
 .. code-block:: python
 
-    $ python3
-
     from bibliopixel.project.builder import Builder
     pb = Builder()
     print(pb)

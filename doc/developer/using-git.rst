@@ -85,7 +85,7 @@ to each of them:
   Having this remote is useful when troubleshooting issues with @rec.
 
 3. Each change should be made in a new branch
-=============================
+=============================================
 
 Every change you want to make needs to be made in a new git _branch_ in your
 fork, and it needs to be a copy

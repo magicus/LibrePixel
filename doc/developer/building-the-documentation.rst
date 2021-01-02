@@ -22,7 +22,7 @@ automated:
 2. Extracting the API documentation
 3. Extracting the documentation on the ``bp`` command
 4. Running Sphinx to convert the documentation into HTML files
-6. GIF extraction and deployment (see next page)
+5. GIF extraction and deployment (see next page)
 
 
 The basic Build

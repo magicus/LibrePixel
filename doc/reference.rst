@@ -9,7 +9,7 @@ This section includes the full API references, and the reference for the
    :caption: References:
 
    reference/api/modules.rst
-   reference/The-bp-command.rst
+   reference/the-bp-command.rst
 
 .. bp-code-block:: footer
 
