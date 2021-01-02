@@ -1,15 +1,7 @@
 from .. import log
 from . import file_writer
 
-try:
-    import cv2
-except:
-    log.error("""\
-Could not import the OpenCV Python library - install it with:
-
-    $ pip install opencv-python
-""")
-    cv2 = None
+import cv2
 
 # https://tsaith.github.io/combine-images-into-a-video-with-python-3-and-opencv-3.html
 

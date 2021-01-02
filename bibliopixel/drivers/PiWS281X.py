@@ -10,19 +10,7 @@ from .. colors import gamma
 WS_ERROR = """
 PiWS281X Requires the rpi_ws281x C extension.
 
-Install rpi_ws281x with the following shell commands:
-
-    git clone https://github.com/jgarff/rpi_ws281x.git
-    cd rpi_ws281x
-
-    sudo apt-get install python-dev swig scons
-    sudo scons
-
-    cd python
-    # If using default system python3
-    sudo python3 setup.py build install
-    # If using virtualenv, enter env then run
-    python setup.py build install
+Install rpi_ws281x with pip install rpi_ws281x
 """
 
 SUDO_ERROR = """

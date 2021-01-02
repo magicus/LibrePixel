@@ -19,18 +19,13 @@ Please install the pynput library with
 """
 
 
-try:
-    import pynput
+import pynput
 
-except ImportError:
-    pynput = Listener = None
-
-else:
-    class Listener(pynput.keyboard.Listener):
-        def join(self, timeout=None):
-            # join() on pynput.keyboard.Listener waits on a queue...
-            self._queue.put(None)
-            return super().join(timeout)
+class Listener(pynput.keyboard.Listener):
+    def join(self, timeout=None):
+        # join() on pynput.keyboard.Listener waits on a queue...
+        self._queue.put(None)
+        return super().join(timeout)
 
 
 def keyname(key):

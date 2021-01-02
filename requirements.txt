@@ -6,3 +6,7 @@ numpy
 pyserial
 pyyaml
 opencv-python
+mido
+phue
+pynput
+werkzeug

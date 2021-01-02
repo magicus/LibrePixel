@@ -2,13 +2,8 @@ import fractions
 from . import control
 from .. util import log
 
-try:
-    import mido
-    MESSAGE_TYPES = set(s['type'] for s in mido.messages.specs.SPECS)
-
-except:
-    mido = None
-    MESSAGE_TYPES = set()
+import mido
+MESSAGE_TYPES = set(s['type'] for s in mido.messages.specs.SPECS)
 
 MIDO_ERROR = """You need to install mido.  Try
     pip install mido
