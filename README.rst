@@ -1,7 +1,12 @@
-BiblioPixel: the light programming system
+.. image:: https://travis-ci.com/magicus/LibrePixel.svg?branch=master
+    :target: https://travis-ci.com/magicus/LibrePixel
+    
+LibrePixel: the light programming system
 ------------------------------------------
 
-`Documentation <https://maniacallabs.github.io/BiblioPixel>`_...
+LibrePixel is an actively developed, friendly fork of BiblioPixel.
+
+BiblioPixel `Documentation <https://maniacallabs.github.io/BiblioPixel>`_...
 ---------------------------------------------------------------------
 
 .. code-block:: yaml
