@@ -9,7 +9,7 @@ ANIMATION_PATH = 'bibliopixel.animation'
 
 class Collection(animation.Animation):
     """
-    A ``Collection`` is a list of ``Animation``s
+    A ``Collection`` is a list of ``Animation``
     """
 
     @staticmethod

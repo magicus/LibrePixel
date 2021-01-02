@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 source scripts/documentation/_common.sh
 
 APIDOC="sphinx-apidoc --force --separate -o $API_DIR"

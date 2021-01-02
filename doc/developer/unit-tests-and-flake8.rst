@@ -1,7 +1,7 @@
 Unit tests and flake8
 --------------------------
 
-A majority of the code BiblioPixel code has _unit tests_ - tests that
+A majority of the code BiblioPixel code has **unit tests** - tests that
 are automatically run for every commit that test all the functionality is
 working.  At this writing, there are 456 tests.
 

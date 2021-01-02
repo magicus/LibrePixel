@@ -66,6 +66,8 @@ class Indexed(Collection):
     @property
     def animation(self):
         """
+        Return the current animation.
+
         :returns: the selected animation based on self.index, or None if
             self.index is out of bounds
         """

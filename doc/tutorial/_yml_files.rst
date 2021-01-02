@@ -1,3 +1,4 @@
+:orphan:
 
 .. code-block:: yaml
 

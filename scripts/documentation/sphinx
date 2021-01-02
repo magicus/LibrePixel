@@ -1,8 +1,8 @@
-#!/bin/bash
+#!/bin/bash -e
 
 source scripts/documentation/_common.sh
 
 pushd _doc
-make html
+make html SPHINXOPTS="-W"
 
 echo "*** finished sphinx documentation"
